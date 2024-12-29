@@ -48,9 +48,6 @@ sh finetune-sft.sh
 sh submit.sh
 ```
 
-## License
-
-应该就是 Apache License 2.0
 
 
 ## Citation
