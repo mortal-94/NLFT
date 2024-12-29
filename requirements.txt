@@ -1,0 +1,19 @@
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+transformers==4.41.1
+datasets==2.16.1
+peft==0.5.0
+bitsandbytes==0.41.1
+accelerate==0.30.1
+trl==0.7.2
+openai==1.7.0
+urllib3==1.25.11
+pydantic==1.10.15
+wandb==0.17.0
+numpy==1.25.2
+scipy==1.11.2
+fire==0.5.0
+modelscope
+
+# 如果要跑 my_sft.py，需要换成 transformers==4.37.0
