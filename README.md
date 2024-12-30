@@ -5,7 +5,7 @@
 <p align="center"> <img src="imgs/fig_overview.png" width="100%"> </p>
 
 
-This repo contains minimal source code and data to reproduce the results in the research paper NLFT: Natural Language Fine-Tuning
+This repo contains minimal source code and data to reproduce the results in the research paper [NLFT: Natural Language Fine-Tuning](#).
 
 You can access our [Google Drive link](https://drive.google.com/drive/folders/1oL5pIspGIMkLEi5sFNxnkfPxD19O471Z?usp=sharing) for finetuned NLFT models in LoRA form. 
 
@@ -30,12 +30,15 @@ cd NLFT
 
 <details>
 <summary>pip</summary>
+
 ```bash
 pip install -r requirements.txt # python 3.9+
 ```
 </details>
+
 <details>
 <summary>conda</summary>
+
 ```bash
 conda create -f nlft.yaml
 ```
@@ -43,7 +46,7 @@ conda create -f nlft.yaml
 
 ### Data & Model Setup
 
-- Download preprocessed train set `NLFT800.json` and test set `gsm8k_test_00001.json` from our [Google Drive link](https://drive.google.com/drive/folders/1oL5pIspGIMkLEi5sFNxnkfPxD19O471Z?usp=sharing)
+- Download `NLFT800.json` and `gsm8k_test_00001.json` from our [Google Drive link](https://drive.google.com/drive/folders/1oL5pIspGIMkLEi5sFNxnkfPxD19O471Z?usp=sharing)
 - Download LLAMA3-8B base model (e.g. `python utils/llama_download.py`)
 - `wandb login` (or set `WANDB_MODE=offline` in env)
 
