@@ -5,7 +5,7 @@
 <p align="center"> <img src="imgs/fig_overview.png" width="100%"> </p>
 
 
-This repo contains minimal source code and data to reproduce the results in the research paper [NLFT: Natural Language Fine-Tuning](https://arxiv.org/abs/2412.20382).
+This repo contains minimal source code and data to reproduce the results in the research paper [Natural Language Fine-Tuning](https://arxiv.org/abs/2412.20382).
 
 You can access our [Google Drive link](https://drive.google.com/drive/folders/1oL5pIspGIMkLEi5sFNxnkfPxD19O471Z?usp=sharing) for finetuned NLFT models in LoRA form. 
 
