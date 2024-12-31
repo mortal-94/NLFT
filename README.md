@@ -5,7 +5,7 @@
 <p align="center"> <img src="imgs/fig_overview.png" width="100%"> </p>
 
 
-This repo contains minimal source code and data to reproduce the results in the research paper [NLFT: Natural Language Fine-Tuning](#).
+This repo contains minimal source code and data to reproduce the results in the research paper [NLFT: Natural Language Fine-Tuning](https://arxiv.org/abs/2412.20382).
 
 You can access our [Google Drive link](https://drive.google.com/drive/folders/1oL5pIspGIMkLEi5sFNxnkfPxD19O471Z?usp=sharing) for finetuned NLFT models in LoRA form. 
 
@@ -15,7 +15,7 @@ In this work, focusing on fine-tuning tasks in specific domains with limited
 data, we introduce Natural Language Fine-Tuning (NLFT), which utilizes natural language for fine-tuning for the first time. By leveraging the strong
 language comprehension capability of the target LM, NLFT attaches the guidance of natural language to the token-level outputs. Then, saliency tokens are identified with calculated probabilities. Since linguistic information is effectively utilized
 in NLFT, our proposed method significantly reduces training costs. It markedly enhances training efficiency, comprehensively outperforming rein-
-forcement fine-tuning algorithms in accuracy, time-saving, and resource conservation. For more details, please refer to our [paper](#).
+forcement fine-tuning algorithms in accuracy, time-saving, and resource conservation. For more details, please refer to our [paper](https://arxiv.org/abs/2412.20382).
 
 ## Minimal Instruction
 
@@ -78,5 +78,13 @@ sh submit.sh
 If you find this code useful in your research, please consider citing our paper:
 
 ```
-
+@misc{liu2024naturallanguagefinetuning,
+      title={Natural Language Fine-Tuning}, 
+      author={Jia Liu and Yue Wang and Zhiqi Lin and Min Chen and Yixue Hao and Long Hu},
+      year={2024},
+      eprint={2412.20382},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.20382}, 
+}
 ```
