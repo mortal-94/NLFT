@@ -17,7 +17,7 @@ language comprehension capability of the target LM, NLFT attaches the guidance o
 in NLFT, our proposed method significantly reduces training costs. It markedly enhances training efficiency, comprehensively outperforming rein-
 forcement fine-tuning algorithms in accuracy, time-saving, and resource conservation. For more details, please refer to our [paper](https://arxiv.org/abs/2412.20382).
 
-<details>
+<details open>
 
 <summary>Supplementary Statement</summary>
 
