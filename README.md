@@ -21,6 +21,8 @@ forcement fine-tuning algorithms in accuracy, time-saving, and resource conserva
 
 <summary>Supplementary Statement</summary>
 
+Last updated: January 3, 2025
+
 Surprisingly, we have received so much discussion and feedback about this paper during holiday, and we are truly grateful for your attention. Regarding the issues mentioned, we give the following responses, and we also preview a new technology of ours:
 
 1. The issue of the unusually low SFT baseline. If there is a risk of causing misunderstandings, it might be because we lack ablation study. We will address this problem in the follow-up, and the expected accuracy will be correspondingly improved.
