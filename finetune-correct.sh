@@ -1,6 +1,6 @@
 dataset=NLFT800
-base=/root/autodl-tmp/cache_dir/LLM-Research/Meta-Llama-3-8B
-data=./data/${dataset}.json
+base=/kaggle/working/cache_dir/LLM-Research/Meta-Llama-3-8B
+data=/kaggle/working/data/${dataset}.json
 threshold=1.5
 gama=0.25
 lr=0.00005
